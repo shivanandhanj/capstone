@@ -2,8 +2,8 @@
     echo hi123
     sh 'chmod +x build.sh'
     sh './build.sh'
-    docker login -u ar8888 -p dckr_pat_HU8f1bsQJp3j2DnCttXuuoppo7w
-    docker tag test ar8888/dev
-    docker push ar8888/dev
-    docker-compose up -d
+    docker login -u shivanandhanj -p dckr_pat_4_kq9frzhYwog05BSMAu6NC8n5o
+    docker tag test1 shivanandhanj/test1
+    docker push shivanandhanj/test1
+    # docker-compose up -d
     
